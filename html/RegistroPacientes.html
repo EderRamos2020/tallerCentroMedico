@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro Pacientes</title>
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Centro Medico Baywatch</h1>
+        </header>
+
+        <main>
+            <h2>Registro Pacientes</h2>
+            <form>
+                <label for="labelNombres">Nombres</label>
+                <input type="text" id="labelNombres" name="labelNombres" required>
+                <label for="labelApellidos">Apellidos</label>
+                <input type="text" id="labelApellidos" name="labelApellidos" required>
+                <label for="labelCedula">No. Cedula</label>
+                <input type="number" id="labelCedula" name="labelCedula" required>
+                <label for="labelEdad">Edad</label>
+                <input type="number" id="labelEdad" name="labelEdad" required>
+                <label for="labelTelefono">Telefono</label>
+                <input type="tel" id="labelTelefono" name="labelTelefono" required>
+                <label for="labelEmail">Email</label>
+                <input type="email" id="labelEmail" name="labelEmail" required>
+                <label for="labelEspecialidad">Especialidad Requerida</label>
+                <select name="labelEspecialidad" id="labelEspecialidad" required>
+                    <option value="">------ Seleccione ------</option>
+                    <option value="medicinaGeneral">Medicina General</option>
+                    <option value="cardiologia">Cardiologia</option>
+                    <option value="medicinaInterna">Medicina Interna</option>
+                    <option value="dermatologia">Dermatologia</option>
+                    <option value="rehabilitacionFisica">Rehabilitacion Fisica</option>
+                    <option value="psicologia">Psicologia</option>
+                    <option value="odontologia">Odontologia</option>
+                    <option value="radiologia">Radiologia</option>
+
+                </select>
+                <input type="submit" value="Enviar">
+
+            </form>
+            <a href="../index.html"><input type="button" value="Inicio"></a>
+        </main>
+
+        <footer>
+            <p><strong>Realizado por Eder F. Ramos</strong></p>
+            <p><strong> Desarrollo Web Backend Basico G1</strong></p>
+        </footer>
+
+    </body>
+</html>
