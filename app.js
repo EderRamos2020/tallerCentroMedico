@@ -97,7 +97,8 @@ const mostrarMedicos= function (){
     } 
     */
 }
-/* 
+ 
+
 //**********Funcionalidad del tabla Lista de Pacientes***************
 const mostrarPacientes= function (){
     let pacientes= []
@@ -144,17 +145,17 @@ const mostrarPacientes= function (){
 
 }
 //***************************************************************
- */
+ 
 
 //Unicamente ejecuta la funcion cuando estamos ubicados en listaMedicos.html
 if(window.location.href.endsWith("listaMedicos.html")){
     mostrarMedicos()
 }
-/* 
+ 
 if(window.location.href.endsWith("ListaPacientes.html")){
     mostrarPacientes()
 }
- */
+
 
 //Unicamente ejecuta el evento addEventListener cuando estamos ubicados en registroMedicos.html
 if(window.location.href.endsWith("registroMedicos.html")){
@@ -201,7 +202,7 @@ if(window.location.href.endsWith("registroMedicos.html")){
     } )
 
 }
-/* 
+
 
 //**********Funcionalidad del fomulario Registro de Pacientes***************
 if(window.location.href.endsWith("RegistroPacientes.html")){
@@ -247,7 +248,7 @@ if(window.location.href.endsWith("RegistroPacientes.html")){
 
 }
 //******************************************************************
- */
+
 
 
 //10/10 1:06

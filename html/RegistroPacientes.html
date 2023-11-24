@@ -15,7 +15,7 @@
 
         <main>
             <h2>Registro Pacientes</h2>
-            <form>
+            <form id="registroPacientes_form">
                 <label for="labelNombres">Nombres</label>
                 <input type="text" id="labelNombres" name="labelNombres" required>
                 <label for="labelApellidos">Apellidos</label>
@@ -26,8 +26,8 @@
                 <input type="number" id="labelEdad" name="labelEdad" required>
                 <label for="labelTelefono">Telefono</label>
                 <input type="tel" id="labelTelefono" name="labelTelefono" required>
-                <label for="labelEmail">Email</label>
-                <input type="email" id="labelEmail" name="labelEmail" required>
+                <!-- <label for="labelEmail">Email</label>
+                <input type="email" id="labelEmail" name="labelEmail" required> -->
                 <label for="labelEspecialidad">Especialidad Requerida</label>
                 <select name="labelEspecialidad" id="labelEspecialidad" required>
                     <option value="">------ Seleccione ------</option>
@@ -52,5 +52,6 @@
             <p><strong> Desarrollo Web Backend Basico G1</strong></p>
         </footer>
 
+        <script src="../app.js"></script>
     </body>
 </html>
