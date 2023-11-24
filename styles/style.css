@@ -16,7 +16,7 @@ header, footer {
 }
 
 footer {
-    position:absolute;
+    position:relative;
     bottom: 0;
     width: 100%;
 
@@ -34,7 +34,19 @@ h1, h2 {
 
 main {
     max-width: 500px;
-    margin: auto;
+    /*margin: auto;*/
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.tablaMedicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 li{
@@ -97,7 +109,9 @@ table {
     width: 100%;
     font-size: 16px;
     font-family: sans-serif;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    margin-left: 30%;
+    
 }
 
 th, td {
