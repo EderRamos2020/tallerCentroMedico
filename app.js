@@ -147,18 +147,20 @@ const mostrarPacientes= function (){
 //***************************************************************
  
 
-//Unicamente ejecuta la funcion cuando estamos ubicados en listaMedicos.html
-if(window.location.href.endsWith("listaMedicos.html")){
+//Si la ventana, se localiza, en la ubicacion o referencia, terminada en "ListaMedicos.html"
+//Unicamente ejecuta la funcion cuando el browser esta ubicado en la web "ListaMedicos.html"
+if(window.location.href.endsWith("ListaMedicos.html")){
     mostrarMedicos()
 }
- 
+//Unicamente ejecuta la funcion cuando el browser esta ubicado en la web "ListaPacientes.html" 
 if(window.location.href.endsWith("ListaPacientes.html")){
     mostrarPacientes()
 }
 
 
-//Unicamente ejecuta el evento addEventListener cuando estamos ubicados en registroMedicos.html
-if(window.location.href.endsWith("registroMedicos.html")){
+//Si ventana, localizada, en ubicacion o referencia, terminada en "RegistroMedicos.html"
+//Unicamente ejecuta el evento addEventListener cuando el browser esta ubicado en la web "RegistroMedicos.html"
+if(window.location.href.endsWith("RegistroMedicos.html")){
 
     //El evento para enviar la informacion del formulario formularioMedicos va ser de tipo enviar o guardar
     // es decir submit
@@ -205,6 +207,8 @@ if(window.location.href.endsWith("registroMedicos.html")){
 
 
 //**********Funcionalidad del fomulario Registro de Pacientes***************
+//Si ventana, localizada, en ubicacion o referencia, terminada en "RegistroPacientes.html"
+//Unicamente ejecuta el evento addEventListener cuando el browser esta ubicado en la web "RegistroPacientes.html"
 if(window.location.href.endsWith("RegistroPacientes.html")){
 
     //El evento para enviar la informacion del formulario formularioMedicos va ser de tipo enviar o guardar
@@ -251,7 +255,8 @@ if(window.location.href.endsWith("RegistroPacientes.html")){
 
 
 
-//10/10 1:06
+//10/10 2:21
+// modificar nombre de listaMedicos.html y registroMedicos.html tambien en el index y en app.js en los if, dejar las iniciales en mayuscula
 
 
 
